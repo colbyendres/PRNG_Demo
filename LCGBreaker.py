@@ -48,4 +48,4 @@ m = 1 << 32
 a = 1664525
 c = 1013904223
 simple_gen = LCG(a, c, m, 33)
-test_modulus_recovery(simple_gen, x_vals, 'Success Rate for Simple LCG', 'plots/lcg_break_rate.png')
+test_modulus_recovery(simple_gen, x_vals, 'Success Rate for Simple LCG', 'results/lcg_break_rate.png')
